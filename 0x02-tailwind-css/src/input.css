@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Responsive fallback for smaller screens */
+@media (max-width: 768px) {
+  main { grid-template-columns: 1fr; }
+}
