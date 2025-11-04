@@ -1,0 +1,11 @@
+//Define color variables
+$text-color: #3D3D3D;
+
+//Apply color variable to body and paragraph tags
+body {
+    color: $text-color;
+}
+
+p {
+    color: $text-color;
+}   
