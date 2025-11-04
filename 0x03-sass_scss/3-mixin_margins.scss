@@ -1,0 +1,13 @@
+//A mixin is Sass let's you define styles that can be re-used throughout your stylesheet, with @include directive to include the mixin wherever needed.
+@mixin set-margins ($left, $right) {
+    margin-left: $left;
+    margin-right: $right;
+}
+
+body{
+    @include set-margins(10px, 15px);
+}
+
+div {
+    @include set-margins(15px, 15px);
+}
