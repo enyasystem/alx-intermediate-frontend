@@ -1,0 +1,2 @@
+I installed sass using the command ``sudo npm install -g sass``
+after which I checked if it has been installed using the command ``sass --version``
